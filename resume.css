@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  border: 1px solid red;
+}
+
+.main-column {
+  flex: 4;
+  border: 1px solid green;
+}
+
+.side-column {
+  flex: 1;
+  background-color: aliceblue;
+  border: 1px solid blue;
+}
