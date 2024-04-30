@@ -1,16 +1,41 @@
 .container {
   display: flex;
   flex-direction: row-reverse;
-  border: 1px solid red;
 }
 
 .main-column {
   flex: 4;
-  border: 1px solid green;
+  background-color: #F5E8DD;
+  padding-left: 10px;
 }
 
 .side-column {
   flex: 1;
-  background-color: aliceblue;
-  border: 1px solid blue;
+  background-color: #B5C0D0;
+}
+
+.profile-pic {
+  border-radius: 200px;
+  width: 200px;
+  height: 200px;
+  margin-top: 40px;
+}
+
+.connect-section {
+  text-align: center;
+  padding-right: 10px;
+}
+
+#edu-title {
+  padding-left: 10px;
+}
+
+.edu-list {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #CCD3CA;
+  height: 50px;
+  text-align: center;
 }
