@@ -1,6 +1,6 @@
 .container {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 
 .main-column {
@@ -38,4 +38,47 @@ footer {
   background-color: #CCD3CA;
   height: 50px;
   text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    display: block;
+  }
+
+  .photo-container {
+    text-align: center;
+  }
+
+  .profile-pic {
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+  }
+
+  #edu-title {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .list-container {
+    text-align: center;
+  }
+  
+  ul.unordered-list {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0px;
+  }
+
+  .main-column {
+    flex: 4;
+    background-color: #F5E8DD;
+    padding: 10px;
+  }
+  .side-column {
+    flex: 1;
+    background-color: #B5C0D0;
+  }
 }
